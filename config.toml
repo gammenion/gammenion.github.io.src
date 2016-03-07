@@ -1,0 +1,28 @@
+# baseurl = "https://gammenion.github.io"
+baseurl = "localhost:1313"
+disablePathToLower = true
+languageCode = "en-us"
+theme = "nofancy"
+title = "Security of Things"
+
+copyright = "Content is free, no need for Copyright. Give credit when due."
+
+canonifyurls = true
+
+paginate = 6
+
+# change the article links
+#[permalinks]
+#post = "/blog/:year-:month-:day-:title/"
+
+
+[params]
+	highlight = "sunburst"
+
+[Author]
+	name = "Gama"
+	github = "gammenion"
+	# linkedin = "YOUR LINKEDIN ID"
+	# facebook = "YOUR FB ID"
+	# gaID = "YOUR Google Analytics Tracking ID"
+	twitter = "gammenion"
