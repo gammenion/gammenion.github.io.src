@@ -1,11 +1,8 @@
-# baseurl = "https://gammenion.github.io"
-baseurl = "localhost:1313"
+baseurl = "https://gammenion.github.io"
 disablePathToLower = true
 languageCode = "en-us"
 theme = "nofancy"
 title = "Security of Things"
-
-copyright = "Content is free, no need for Copyright. Give credit when due."
 
 canonifyurls = true
 
