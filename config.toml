@@ -1,4 +1,4 @@
-baseurl = "https://gammenion.github.io"
+baseurl = "https://gammenion.github.io/"
 disablePathToLower = true
 languageCode = "en-us"
 theme = "nofancy"
