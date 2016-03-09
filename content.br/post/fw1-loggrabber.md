@@ -1,11 +1,10 @@
 +++
 date = "2016-03-05T14:23:22+01:00"
-# draft = true
 title = "Coletando logs do Check Point usando fw1-loggrabber"
+Description = "Extraindo logs para arquivos"
 
-categories = [
-	"Portugues"
-]
+translationurl = "/post/fw1-loggrabber/"
+
 tags = [
 	"Check Point"
 ]

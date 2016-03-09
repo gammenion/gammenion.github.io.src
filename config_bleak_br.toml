@@ -1,0 +1,35 @@
+baseurl = "http://gammenion.github.io/"
+disablePathToLower = true
+languageCode = "pt-br"
+theme = "hugo-theme-bleak"
+title = "Segurança das Coisas"
+description = "Isso e aquilo sobre assuntos de segurança"
+contentdir = "content.br"
+publishdir = "public/br"
+[Permalinks]
+	post = "br/post/:filename"
+
+canonifyurls = true
+
+paginate = 6
+
+# change the article links
+#[permalinks]
+#post = "/blog/:year-:month-:day-:title/"
+
+
+[Params]
+	logo = "/img/logo.jpg"
+	# cover = "/img/06.png"
+	twitter = "gammenion"
+	github = "gammenion"
+	Subtitle = "Isso e aquilo sobre assuntos de segurança"
+	comments = true
+	disqus = "disqus_QBNiJaWTUH"
+	translationtitle = "Open in English"
+	translationurl = "/"
+	translationflag = "/img/usa.png"
+	tags = [
+		"Security",
+		"Check Point"
+	]
