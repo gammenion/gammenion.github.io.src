@@ -10,10 +10,6 @@ canonifyurls = true
 
 paginate = 6
 
-# change the article links
-#[permalinks]
-#post = "/blog/:year-:month-:day-:title/"
-
 
 [Params]
 	logo = "/img/logo.jpg"
@@ -26,8 +22,10 @@ paginate = 6
 	translationtitle = "Abrir em Português"
 	translationurl = "/br/"
 	translationflag = "/img/brazil.jpg"
-#	translationflag = "🇧🇷"
 	tags = [
 		"Security",
-		"Check Point"
+		"Check Point",
+        "Hardening",
+        "SSH",
+        "Github"
 	]

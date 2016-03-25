@@ -1,4 +1,4 @@
-baseurl = "http://gammenion.github.io/"
+baseurl = "http://gammenion.github.io/br/"
 disablePathToLower = true
 languageCode = "pt-br"
 theme = "hugo-theme-bleak"
@@ -7,16 +7,11 @@ description = "Isso e aquilo sobre assuntos de segurança"
 contentdir = "content.br"
 publishdir = "public/br"
 [Permalinks]
-	post = "br/post/:filename"
+	post = "post/:filename"
 
 canonifyurls = true
 
 paginate = 6
-
-# change the article links
-#[permalinks]
-#post = "/blog/:year-:month-:day-:title/"
-
 
 [Params]
 	logo = "/img/logo.jpg"
@@ -31,5 +26,8 @@ paginate = 6
 	translationflag = "/img/usa.png"
 	tags = [
 		"Security",
-		"Check Point"
+		"Check Point",
+        "Hardening",
+        "SSH",
+        "Github"
 	]
